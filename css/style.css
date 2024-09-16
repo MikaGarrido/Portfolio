@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h4 {
+    color: #c1b125;
+    text-align: center;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.common-container, .skill-container, .project-container {
+    background-color: #b82cd4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+    background-color: #fff;
+    padding: 80px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #b82cd4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #8e1da9;
+}
+
+.project-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
